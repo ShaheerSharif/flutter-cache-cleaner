@@ -1,0 +1,26 @@
+# makepkg artifacts
+*.pkg.tar.zst
+*.pkg.tar.zst.sig
+*.pkg.tar.xz
+*.pkg.tar.gz
+
+# source archives
+*.tar
+*.tar.gz
+*.tar.xz
+*.zip
+
+# checksums
+*.sha256
+*.md5
+
+# build directories
+src/
+pkg/
+
+# editor files
+*~
+*.swp
+*.swo
+.vscode/
+.idea/

@@ -1,0 +1,8 @@
+pkgbase = flutter-cache-cleanup
+	pkgdesc = Pacman hook to cleanup flutter-bin cache and FUSE mounts
+	pkgver = 1.0.0
+	pkgrel = 1
+	arch = ANY
+	license = MIT
+
+pkgname = flutter-cache-cleanup
