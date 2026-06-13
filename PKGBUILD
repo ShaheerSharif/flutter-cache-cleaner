@@ -15,9 +15,9 @@ optdepends=(
 )
 
 package() {
-  install -Dm755 flutter-cache-cleanup \
+  install -Dm755 "$srcdir/flutter-cache-cleanup" \
     "$pkgdir/usr/local/bin/flutter-cache-cleanup"
 
-  install -Dm644 flutter-cache-cleanup.hook \
+  install -Dm644 "$srcdir/flutter-cache-cleanup.hook" \
     "$pkgdir/usr/share/libalpm/hooks/zz-flutter-cache-cleanup.hook"
 }
