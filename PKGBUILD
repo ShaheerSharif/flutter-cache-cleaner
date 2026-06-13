@@ -25,7 +25,7 @@ package() {
     "$pkgdir/usr/bin/${_pkgname}"
 
   install -Dm644 "$srcdir/${_pkgname}.hook" \
-    "$pkgdir/usr/share/libalpm/hooks/${_pkgname}.hook"
+    "$pkgdir/usr/share/libalpm/hooks/zz-${_pkgname}.hook"
 }
 
 sha256sums=('accee40ecc650276021b6f108700e4f5a4869791e766d86e03e52f861d43b82d'
